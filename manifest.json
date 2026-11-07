@@ -1,0 +1,1151 @@
+{
+ "build": 24,
+ "version": "0.5-test",
+ "minNative": 0,
+ "notes": [
+  "Toute l'interface est redessinée : boutons, cadres, barre du haut, icônes bijoux",
+  "Nouveaux fonds d'écran : accueil, menu, réglages, test, aide, victoire",
+  "Rémi et les 10 personnages sont maintenant peints (nouveaux noms : chat ninja, dragon, pieuvre, chevalier, sirène)",
+  "Des illustrations expliquent l'aide, la mise à jour et la liaison à deux",
+  "Duel de bateaux : bateaux vus de dessus sur la mer, les canons tirent des boulets (plus de missiles)",
+  "Patate chaude, course de pas et 1-2-3 soleil : textes et images plus cohérents",
+  "Canonnier : le bouton devient « Apparence » pour choisir bateau, soucoupe ou chasseur",
+  "Nouvel emblème sur l'accueil (poignée de main dans le laurier)",
+  "Duel de bateaux : nouveau boulet explosif à grosse zone de destruction",
+  "18 nouveaux jeux à deux : échecs, dames, puissance 4, morpion, bataille navale, Othello",
+  "Cartes : bataille, memory des pirates, 7 familles, blackjack",
+  "Réflexe et réflexion : jeu des couleurs, mastermind pirate, épée-bouclier-canon, calcul mental, trouve la sortie",
+  "Avec les capteurs : lancer de hache, duel de pointeurs, bras de fer",
+  "Le menu des jeux est rangé par catégories (Action, Plateau, Cartes, Réflexe, Capteurs, Aventure)",
+  "Un petit bouton « ? » sur chaque page pour signaler un problème",
+  "Le bouton Quitter demande toujours confirmation pendant une partie",
+  "Corrections d'affichage : fenêtres et écrans d'explication qui défilent toujours, boutons visibles même avec un grand texte",
+  "Bataille navale, blackjack et mastermind : mise en page ajustée pour les petits écrans",
+  "Rémi : bulle de message déplacée pour ne plus cacher le jeu ; les blagues sont désormais désactivées par défaut (réglage disponible)",
+  "Jeux de capteurs : un seul bouton pour quitter, avec confirmation",
+  "Noms en duo plus clairs : « Toi » et « L'autre joueur »",
+  "Lancer de hache : nouvelle hache dessinée, bruit de vent au lancer et à l'arrivée, hache vue en grand sur ton écran, version normale (cible) ou adulte (bonhomme dessiné, zones tête/épaule/ventre/jambe) choisie au départ.",
+  "Duel de bateaux : îles solides (un choc coûte 1 vie), rochers à détruire dont les débris partent vers l'autre bateau, vrais bruits de canon et d'explosion (fini les bips)",
+  "Capteurs plus rapides et plus précis, nouveau réglage « Sensibilité des capteurs » (niveau à bulle, boussole, remise à zéro)",
+  "Cache-cache dans la maison : délimite ta pièce, enregistre-la, Rémi se cache dedans",
+  "Jouer à deux : démarrage plus rapide, connexion automatique de l'ami, avertissement si les versions diffèrent, messages d'erreur plus clairs",
+  "Donner l'appli à un ami : envoi du fichier par Partage à proximité ou Bluetooth (demande de réinstaller l'APK une fois)",
+  "Radar et cache-cache : on choisit où jouer, dehors (GPS) ou dans la maison avec un emplacement enregistré (pièces de la zone de jeu)",
+  "Chaud-froid : départ clair avec décompte « Avance de quelques pas » et premier indice tout de suite",
+  "Chaud-froid : la couleur, les bips et la vibration suivent aussi le cap de la boussole (face à la cible = chaud, dos = froid), même sans bouger",
+  "Nouveau cadran de cap : la flèche montre où est la cible par rapport à devant toi (selon le niveau de difficulté)",
+  "Rémi se cache mieux dans la pièce : plus loin et dans les coins aux niveaux élevés, jamais contre un mur ni hors de la zone",
+  "Combat à l'épée entièrement refait : un mouvement circulaire du téléphone (ou un cercle au doigt) lance une onde vers l'autre téléphone, qu'il faut BLOQUER au moment précis où elle le traverse ; blocage réussi = duel où l'on tape le plus vite pendant 3 secondes, blocage raté = coup reçu ; option de visée façon pistolets ; Rémi attaque, bloque et tape selon son niveau",
+  "Plus de liseré violet autour des boutons, cadres, icônes, personnages et vaisseaux : les bords des images sont nettoyés",
+  "Fenêtre de mise à jour : dès que tu appuies sur « Mettre à jour », le titre devient « Mise à jour en cours… » et la barre de chargement s'affiche en haut, toujours visible",
+  "Duel de bateaux : beaucoup moins d'îles (2 à la première manche, puis 1 ou 2 de plus par manche, jusqu'à 7), toujours un couloir libre ; la zone du bas est libre sur toute la largeur",
+  "Duel de bateaux : le bateau avance et recule (inclinaison du téléphone en avant ou en arrière, ou doigt sur la mer) ; la vue est dézoomée pour voir arriver les boulets",
+  "Duel de bateaux : tenue à deux pouces, TIR et RAFALE à droite, SAUT à gauche (invulnérable un instant, recharge visible), GROS TIR au milieu",
+  "Canonnier en équipe entièrement refait : l'un PILOTE le vaisseau (gauche/droite et avant/arrière en inclinant le téléphone, bouclier à activer de temps en temps), l'autre TIRE et gère la chauffe de l'arme, les munitions et le GROS TIR qui se charge à chaque tir qui touche",
+  "Le bouclier se recharge quand le vaisseau n'est pas touché et à chaque ennemi détruit",
+  "Les ennemis détruits lâchent parfois un tir triple, un tir quadruple ou une vague de tirs que le pilote ramasse en les touchant",
+  "Les jauges des deux rôles sont affichées en haut pour les deux joueurs (chauffe, munitions, gros tir, bouclier, esquive, coque) avec une phrase qui dit qui assure bien son rôle",
+  "Plus on joue, plus c'est dur : nouveau niveau tous les quelques ennemis détruits avec un nouveau décor, plus d'ennemis, des fonceurs puis quelques tireurs légers",
+  "Rémi prend l'autre rôle (tireur ou pilote) et on le voit agir dans les jauges ; l'Apparence (bateau, soucoupe, chasseur) et les sons de canon sont conservés",
+  "Zone de la maison : en bas de l'écran, un bandeau toujours visible avec le nom de la pièce, le gros bouton « C'est la bonne taille — Enregistrer la pièce » (taille affichée), « Recommencer » et « Annuler » ; la pièce enregistrée apparaît ensuite dans la liste pour être choisie",
+  "1, 2, 3, soleil : écran de règles au début, chaque appui n'importe où sur l'écran = un pas ; au feu rouge il ne faut ni toucher ni bouger le téléphone (capteurs avec réglage de tolérance) ; niveaux (piste plus longue, feux plus rapides) ; menus Recommencer et Quitter",
+  "Patate chaude : règles claires au début, l'écran dit qui a la patate et comment la passer ; nouveau lancer (glisser le doigt vers le haut), la mèche raccourcit à chaque passe ; à la fin elle explose (animation, boum, vibration, écran qui tremble chez celui qui la tient) ; menus Recommencer et Quitter",
+  "Bataille de cris : chaque manche donne un cri célèbre à reproduire (Yahoo !, Yihaa !, Tac au tac !, Boum !, Hourra !…) ; la reconnaissance vocale compare ce que tu dis au bon mot (sinon volume et rythme, sinon bouton) : le plus fidèle gagne, pas seulement le plus fort ; menus Recommencer et Quitter",
+  "Main de chirurgien refaite en face à face : ton rond vert bouge de plus en plus vite et rétrécit, ça tremble de plus en plus, ta résistance baisse hors du rond, et tu peux bousculer l'autre (maintiens pour charger la force, relâche pour pousser)",
+  "Course de billes refaite : long parcours en bois vu en perspective, montées qui ralentissent, descentes qui accélèrent, virages qui poussent la bille, chute = tu réapparais au même endroit après une pause, avancement de l'autre visible",
+  "Course de pas refaite : écran de règles, appuis alternés pied gauche / pied droit (le même côté deux fois n'avance pas), côté attendu allumé, cadence comparée à celle de l'autre",
+  "Calibration avant les jeux de précision : pose ton téléphone, appuie sur Prêt, puis décompte 3-2-1 quand les deux joueurs sont prêts",
+  "Menu en jeu (reprendre, recommencer, options, quitter) dans Main de chirurgien, Course de billes et Course de pas",
+  "Parties de plateau et de cartes : enregistre et reprends plus tard (Pause, puis « Enregistrer et quitter ») ; la partie ne se reprend qu'avec le même adversaire, et les deux sauvegardes sont comparées (numéro de coup et empreinte) avant de continuer",
+  "Liste « Parties en cours » dans le menu de chaque jeu (adversaire, date, à qui le tour) avec Reprendre et Supprimer, et résultats (victoires, défaites, nuls) par adversaire et par jeu",
+  "Échecs, dames, puissance 4 et morpion : bouton « Annuler le coup » (l'autre joueur doit accepter ; Rémi accepte toujours)",
+  "Nouveau jeu d'action « Tour à abattre » : lance-pierre à deux contre une tour de bois, pierre, verre et glace ; boulet lourd, balle rebondissante, bombe, harpon perforant et caillou rapide ; celui dont le tir fait tomber la tour gagne ; chacun son tour ou en même temps ; 4 tours ; Rémi joue selon le niveau"
+ ],
+ "files": [
+  {
+   "p": "css/style.css",
+   "size": 15355,
+   "sha": "2513010b7c737b5b086b86fa6eab68ae7eea6f971d6fc407f928a7eeb0109de6"
+  },
+  {
+   "p": "img/art.webp",
+   "size": 444854,
+   "sha": "3113030f273d3a44915cd3d64426a1eba849eb6c188e39bec5106f2605ae1220"
+  },
+  {
+   "p": "img/av/astro.webp",
+   "size": 12078,
+   "sha": "e1ec2aac31be09422a5de21640c6af66f7997aa7922468b462cec3db96485e69"
+  },
+  {
+   "p": "img/av/chat.webp",
+   "size": 12894,
+   "sha": "a453794dabf920adf217b2a823fba364bc30ca1d9518f1d9f7833d09f71be696"
+  },
+  {
+   "p": "img/av/dino.webp",
+   "size": 16366,
+   "sha": "68b7649c817e4689622cbf423e9c7a5e6ae660afa7b8e7b2f91acd3de2407eb5"
+  },
+  {
+   "p": "img/av/fantome.webp",
+   "size": 17768,
+   "sha": "6de7a178cb37cc1ba926854c7b38274bd966c9d42b77e02f8428df9641bdb846"
+  },
+  {
+   "p": "img/av/lapin.webp",
+   "size": 14264,
+   "sha": "f08f80d1f2e0de6afc7ea3007279473a45eee5711cf5a4ea4d4174ebfb6127f8"
+  },
+  {
+   "p": "img/av/ninja.webp",
+   "size": 11722,
+   "sha": "179a875b7ee6fbfd97360e65aecf877c1d2580b38934a9a7661b496a8c470a14"
+  },
+  {
+   "p": "img/av/pirate.webp",
+   "size": 12482,
+   "sha": "e92b969a9e46dc120dce1abff2b396e665db633b1872d42feff77df51387b517"
+  },
+  {
+   "p": "img/av/renard.webp",
+   "size": 12778,
+   "sha": "0111c339f0ddba92655b1dd24deb38b21417ffe62b74f0c7d2b83043ff8bf8d7"
+  },
+  {
+   "p": "img/av/robot.webp",
+   "size": 11454,
+   "sha": "8b14c57b54a7c2dc4670e5163c29d5c8d4e22fed4852f5be96cab327f4f72969"
+  },
+  {
+   "p": "img/av/sorcier.webp",
+   "size": 12288,
+   "sha": "c99bfe0b877633e6dc9bb3f434612bf8c9f1a7117b4dddc6629ae4492c8f29e4"
+  },
+  {
+   "p": "img/bg/deck.webp",
+   "size": 37248,
+   "sha": "9efee8ec14abcc5240d9162b213a1726d6f96bd246768b9de3dc803009a74e9f"
+  },
+  {
+   "p": "img/bg/forest.webp",
+   "size": 35630,
+   "sha": "c5d33e43fe7096111575e7ae47863e6dfac005dce40b294eb70d80da5b9a5788"
+  },
+  {
+   "p": "img/bg/island.webp",
+   "size": 39750,
+   "sha": "5914094f09df5989021bfdb9b59b806f43138279ebcf809586067d757aa4f7b6"
+  },
+  {
+   "p": "img/bg/radar.webp",
+   "size": 11732,
+   "sha": "681e3233c1992fee2c6f6a599d6ff0ede9f35eb0998af45cb90a1cce866b3045"
+  },
+  {
+   "p": "img/bg/space.webp",
+   "size": 19260,
+   "sha": "8ff6878a75fa9f70497898e9b0ce58e80850d0ae35a202fafb2211e92111ab4a"
+  },
+  {
+   "p": "img/bg/storm.webp",
+   "size": 26756,
+   "sha": "86de7550106ccfbe5609e3769812c78ac803224852688559d520953b92b30b25"
+  },
+  {
+   "p": "img/bgm/billes.webp",
+   "size": 9848,
+   "sha": "e791cfaf506717c90e8abda9615fd9247723b145e3a54604562bf0e9e287ce06"
+  },
+  {
+   "p": "img/bgm/chirurgien.webp",
+   "size": 11596,
+   "sha": "54b1b35a06c039d8ed03eb3dd1c4b3b07d13f65123693fa2acea523e219354c6"
+  },
+  {
+   "p": "img/bgm/cris.webp",
+   "size": 6846,
+   "sha": "62510b1a1f7303146bd66fffa1957f00ea2f6246acfe19b48d605bd2559f627e"
+  },
+  {
+   "p": "img/bgm/dessin.webp",
+   "size": 12208,
+   "sha": "f405a2a5564d041bea980746bfb3b078ea9642b9579da1cea7adee829636f1a7"
+  },
+  {
+   "p": "img/bgm/pas.webp",
+   "size": 12832,
+   "sha": "15dc4a9fc478141533dca920c887ac1f53404f4034a8dbb27128c8d2f0208f92"
+  },
+  {
+   "p": "img/bgm/patate.webp",
+   "size": 10988,
+   "sha": "809c5b43a4c44b9e8534d5794715f9d94b0e638558708fdfacd994c6c144de82"
+  },
+  {
+   "p": "img/bgm/simon.webp",
+   "size": 9616,
+   "sha": "7203ad19fc7294bce5b29c3d8f4f7e67604746ff1e614ca256fec3f91d3a70bb"
+  },
+  {
+   "p": "img/bgm/soleil.webp",
+   "size": 12134,
+   "sha": "08346c9a60829fe6efb20bb93e8e6ca5fa885ad20f5fb6b51bfc25ad547ce1ae"
+  },
+  {
+   "p": "img/canon-fond.webp",
+   "size": 43802,
+   "sha": "8b67b650df06528d09022a057e4f442226e8f216a156c961ba92324b9c5603c7"
+  },
+  {
+   "p": "img/canon.webp",
+   "size": 142618,
+   "sha": "b58014a4d84c1d3eb1f3b55e52e3e57c44680058341b7aad57f8090afc5beaed"
+  },
+  {
+   "p": "img/cov/bataille.webp",
+   "size": 3894,
+   "sha": "f657b1b621d13e11fc7e3dd135abb1cbec5283f48e8c71364383a9b192acb2ac"
+  },
+  {
+   "p": "img/cov/billes.webp",
+   "size": 10492,
+   "sha": "4c53aef77908f66a243843af94bc6b4f7cc1bac92d9c1b178c2f6fd0600e1f41"
+  },
+  {
+   "p": "img/cov/blackjack.webp",
+   "size": 3862,
+   "sha": "ce2c4db3bb0bc7605871cb8d04d52420425dc35671085ab0847936b0b98aa691"
+  },
+  {
+   "p": "img/cov/brasdefer.webp",
+   "size": 4198,
+   "sha": "6e7ae9dcd6edadd32e3ab5ff1a0dd5839400537d74cac592e54cc747ac33b68d"
+  },
+  {
+   "p": "img/cov/calcul.webp",
+   "size": 2926,
+   "sha": "19f174c8fa1ed4b098b99b19f7d3cd9e66bde24512366b8328eec3e03ef4818b"
+  },
+  {
+   "p": "img/cov/chirurgien.webp",
+   "size": 7062,
+   "sha": "de5992b07589ba8b3846115dd52bdc90340ee418ef76e13b2409d570dc3281d2"
+  },
+  {
+   "p": "img/cov/couleurs.webp",
+   "size": 4320,
+   "sha": "174dc23e83ff894649813656c49f51d22b479fab84ea27f893eb5e4a8d11638f"
+  },
+  {
+   "p": "img/cov/cris.webp",
+   "size": 9326,
+   "sha": "d149bdfa2ee80f0794d19cf3038bb09ba0607162d3aa8caaa2ca5f12e9e9289b"
+  },
+  {
+   "p": "img/cov/dames.webp",
+   "size": 3230,
+   "sha": "9adf6417eb4514176b68dd05fbecdffd1f9e33694dada332ee7918ccab9018df"
+  },
+  {
+   "p": "img/cov/dessin.webp",
+   "size": 12010,
+   "sha": "84f9568b31b4e165710c9f3d5105d280dab946f989ea85e321aca0d7243b9d09"
+  },
+  {
+   "p": "img/cov/echecs.webp",
+   "size": 3412,
+   "sha": "46d7de4135cce97551955a6093a743d15f4a4ccfdc9822fafa3fea91308e190a"
+  },
+  {
+   "p": "img/cov/epee.webp",
+   "size": 13538,
+   "sha": "ee6bfdea4d15b0a8afefb1588b9ac17f92892ba0bedc7797acab3d5682e98ddb"
+  },
+  {
+   "p": "img/cov/familles.webp",
+   "size": 3562,
+   "sha": "10904d52e15d94a17002db15875a91c7ecc57d8efe8f38482809c7413a165346"
+  },
+  {
+   "p": "img/cov/foret.webp",
+   "size": 12512,
+   "sha": "03e275a963d5e868ac5b6ec22ea6f2edbd25b3a037417bfaa76eea05b31cc8c0"
+  },
+  {
+   "p": "img/cov/hache.webp",
+   "size": 3994,
+   "sha": "8ca9fd608b07a48c7585a6a7602704c0fe0733f111c3583ef76298d040ef2ba7"
+  },
+  {
+   "p": "img/cov/mastermind.webp",
+   "size": 4178,
+   "sha": "a55e03d943faf078e76c19ee8ccdaf3a8ee263966aa435863351a33272e0c672"
+  },
+  {
+   "p": "img/cov/memory.webp",
+   "size": 3896,
+   "sha": "5bce45589e025ca6d90eb5da9f652dccaa020c4df1e72cffb67b69e823669360"
+  },
+  {
+   "p": "img/cov/missiles.webp",
+   "size": 5618,
+   "sha": "995f3b450564037b3cff992da43741f88b8bb285988f1513eec8a4e069155cf6"
+  },
+  {
+   "p": "img/cov/morpion.webp",
+   "size": 3108,
+   "sha": "41d8de75c535d2e2924c712916643de1e19aa7c53558b355f30f283a300d73c7"
+  },
+  {
+   "p": "img/cov/navale.webp",
+   "size": 3774,
+   "sha": "aaf94f5f10130d90bfa2cfa6a95db66b2bc95202a3ca4c49ee7548f17ae2bb2d"
+  },
+  {
+   "p": "img/cov/othello.webp",
+   "size": 3544,
+   "sha": "a50fb7715f961fe579b14ba7bbe3a41a8afeeebe791367875e4628cdf8a6884d"
+  },
+  {
+   "p": "img/cov/pas.webp",
+   "size": 5880,
+   "sha": "78fbd8948bb750f6098a0f64b7f496b175b623536677e94c6854ec5f3b298788"
+  },
+  {
+   "p": "img/cov/patate.webp",
+   "size": 5288,
+   "sha": "af43c7559a6d04c31ef9e452dcb9701eecb8b59b6dfe753a42134791d2e382bc"
+  },
+  {
+   "p": "img/cov/pfc.webp",
+   "size": 4816,
+   "sha": "5a221cc55052335f25ca296994e30c9a2f1d2c8f01190411375bcba63c160d67"
+  },
+  {
+   "p": "img/cov/pointeurs.webp",
+   "size": 4274,
+   "sha": "f54f38c64b388cb446b7c3600cb011e6288968a760de7ce121618dc503cd1567"
+  },
+  {
+   "p": "img/cov/puissance4.webp",
+   "size": 4836,
+   "sha": "715cf1ef14060578b42851e6bee455e5e5b96bbc491e56800fb57dc44d0f0046"
+  },
+  {
+   "p": "img/cov/radar.webp",
+   "size": 6674,
+   "sha": "f09f775246f8d4413fb4a2f7074945365993acab672ef288c345cb079f134798"
+  },
+  {
+   "p": "img/cov/simon.webp",
+   "size": 5638,
+   "sha": "cf36ed1c29f92f993833295d215bfe86d71332130d76543c3782a474f39f257c"
+  },
+  {
+   "p": "img/cov/soleil.webp",
+   "size": 9438,
+   "sha": "01ed084f3d76d4bea0ebded710bf057bcb56d859d0491c328c9d1bfd36a737e7"
+  },
+  {
+   "p": "img/cov/sortie.webp",
+   "size": 3412,
+   "sha": "176cb33c87d4f309fc8a99dff87f9a139862f0f45af5787f39f6ed38d7fd5c30"
+  },
+  {
+   "p": "img/cov/tour.webp",
+   "size": 1834,
+   "sha": "183b7ec1757f8b3affe385d7f49ed91bca735c3dce4d8a5bc2f3ab4203977988"
+  },
+  {
+   "p": "img/cov/tresor.webp",
+   "size": 10076,
+   "sha": "5ae5e5de6d01d8eebaf7efb71aac8594560a0de176db8a903ba921e6c5555f13"
+  },
+  {
+   "p": "img/cov/vaisseau.webp",
+   "size": 12642,
+   "sha": "b03f151057cb8c671fc1714e0a9397645cd57fde376e5c495daded7b322d04ec"
+  },
+  {
+   "p": "img/duel.webp",
+   "size": 162152,
+   "sha": "211864fc6ebe08c673ef01f607f8f63fca1562d2fc8dcd93a60cfa3d1b55f134"
+  },
+  {
+   "p": "img/logo/e1.webp",
+   "size": 14650,
+   "sha": "a1555877543a828db638a150020cd8c59641609047c41be696c353c00fc969bb"
+  },
+  {
+   "p": "img/logo/e2.webp",
+   "size": 20194,
+   "sha": "99ed8003b21031e815f7e8dff0a3e71f0a149941ad526bd6e0b9b804243b0a5b"
+  },
+  {
+   "p": "img/logo/e3.webp",
+   "size": 16426,
+   "sha": "57ca8b5ef6f08df6d642c97e10749954cfb205092b2aa65d416f06a70600e519"
+  },
+  {
+   "p": "img/logo/e4.webp",
+   "size": 21438,
+   "sha": "cf6e81ea2a2da223e62a84c20bd99645b6d5317396ee5d14bf0b91fd6b1b75cb"
+  },
+  {
+   "p": "img/logo/e5.webp",
+   "size": 36176,
+   "sha": "b1d5b36db315cd0d3b34eb5aa249cac2e7f3347fdd805a4add6b22559fdf2198"
+  },
+  {
+   "p": "img/logo/e6.webp",
+   "size": 15272,
+   "sha": "6176d2f86e0aa4c5efcafc4d809636e5aca842a00e10c0509a713b17c269ea11"
+  },
+  {
+   "p": "img/logo/i1.png",
+   "size": 28713,
+   "sha": "291690a61a4ecc3831211e3d52ca679f5d5fd606eb56fc563cb00ae632135672"
+  },
+  {
+   "p": "img/logo/i2.png",
+   "size": 29296,
+   "sha": "7df6821cc133b3b60265894e8dd3b6855f5938cd65691da7bbbadc0ca9a219b9"
+  },
+  {
+   "p": "img/logo/i3.png",
+   "size": 32465,
+   "sha": "a8c40427cfd3e8f71eadf7b91d9916aa8f9eabac4e88ca4317ce3f2e92015076"
+  },
+  {
+   "p": "img/logo/i4.png",
+   "size": 45518,
+   "sha": "33010485d982bfb8e557df38975c197c39674eb3d46329e1ffeea2b1b907af30"
+  },
+  {
+   "p": "img/logo/i5.png",
+   "size": 34650,
+   "sha": "f1c73cdc88cece476bf0c24dc7daad3579e1aeb98a3cba9ba4b49a235d5c0c9a"
+  },
+  {
+   "p": "img/logo/i6.png",
+   "size": 40252,
+   "sha": "4554131f8b19b6caef11eb16ef7a9613480c358e1b9b13c0ca48bc804ed69c2c"
+  },
+  {
+   "p": "img/mer.webp",
+   "size": 156014,
+   "sha": "8a8dc4d89634a31c6185bf6b2053dc6d87363632aa344f85efed71dbe8222ae7"
+  },
+  {
+   "p": "img/pirate.webp",
+   "size": 106208,
+   "sha": "cf6443ae1c5e15cce62de0c1f667a70680e598fb33c1d2fd68d8b7088cd36bd4"
+  },
+  {
+   "p": "img/pirate_me.webp",
+   "size": 96336,
+   "sha": "e37ee3e403a8eb5084904d55aab680b6e2fbab1caf8adf585aca5dcd8837a6be"
+  },
+  {
+   "p": "img/sc/01.webp",
+   "size": 18564,
+   "sha": "e822ba332e4a376ca7501787b04c5eaef24cfdf9b155a39b0efd705fb6d4392c"
+  },
+  {
+   "p": "img/sc/02.webp",
+   "size": 13520,
+   "sha": "acb151b8cd65b8dab3133d0cde984712fd3fb286f2b3071b055f2619b529926b"
+  },
+  {
+   "p": "img/sc/03.webp",
+   "size": 7350,
+   "sha": "ad7cbca3d979a1fa56235049048286ce389e611a7a0549a391037c60398dc6b3"
+  },
+  {
+   "p": "img/sc/04.webp",
+   "size": 11234,
+   "sha": "f5284af46d6917dd72da1fb05cac73bcffea18626c2a70043c26b31184d4fee7"
+  },
+  {
+   "p": "img/sc/05.webp",
+   "size": 9114,
+   "sha": "81a9861f2f92166dc65e4ca6bcd79c97eadb8f2b10cfc32fd5dbd139abbec77b"
+  },
+  {
+   "p": "img/sc/06.webp",
+   "size": 10378,
+   "sha": "84b03040cb7205ee60462cb3a3924aced8a241bead814f6dd68af7b5c96a2813"
+  },
+  {
+   "p": "img/sc/07.webp",
+   "size": 8608,
+   "sha": "86132723598e5515631b05a5b132c92eed8af7e72d57f815108e1320acca7f98"
+  },
+  {
+   "p": "img/sc/08.webp",
+   "size": 18236,
+   "sha": "3c51c0fc587b715b5a4398883a13ad324f5703c38ccc4d880c7bae6219c955f9"
+  },
+  {
+   "p": "img/sc/09.webp",
+   "size": 15228,
+   "sha": "1a9ec5697f11c88ba00155b9ce165950dac9a546b774189c397c6df968613621"
+  },
+  {
+   "p": "img/sc/10.webp",
+   "size": 16120,
+   "sha": "f93498a5d4aff05ff98a69cb640da9fb507ac71568040833ef3aeb2b4259042c"
+  },
+  {
+   "p": "img/sc/11.webp",
+   "size": 11164,
+   "sha": "6a6b7a6785a217ae8d17a67cff88879844ae9c3fa00ccc30a65e97b491420fd6"
+  },
+  {
+   "p": "img/sc/12.webp",
+   "size": 18822,
+   "sha": "3c1a8781a57572005ec3b699db6a2be698e6a854b723fd21a7ee24f3a0e5d576"
+  },
+  {
+   "p": "img/sc/13.webp",
+   "size": 14212,
+   "sha": "e806e2bd516dbc249589de559014dfd25d582d85681d1e05fb2e5acbb9677144"
+  },
+  {
+   "p": "img/sc/14.webp",
+   "size": 18062,
+   "sha": "6321e5337408940fdd537b1e508a116d3db686bd1c11f2ffb6ddd6dee2145dce"
+  },
+  {
+   "p": "img/sc/15.webp",
+   "size": 16174,
+   "sha": "d8ca1b147571890e5e41c5f98ded953416a378496a8210e3645a5d67c0abc681"
+  },
+  {
+   "p": "img/sc/16.webp",
+   "size": 12966,
+   "sha": "374eb05ff75c99367188e4f57f88e361393be67f123e56582176f24e8682347c"
+  },
+  {
+   "p": "img/scr/accueil.webp",
+   "size": 15482,
+   "sha": "abe415618d8abfd40cdf42556278191da19c2786b8bbe179bdf0396f36d523dd"
+  },
+  {
+   "p": "img/scr/appairage.webp",
+   "size": 11666,
+   "sha": "77aaaa9aeb0789c14c82d37881164bd3c53600f9f2577f0b0e7ac280c04d9660"
+  },
+  {
+   "p": "img/scr/cabine.webp",
+   "size": 21876,
+   "sha": "07ebf29a70425e260cf6f507a8be6f323946b1ddb7d1174c0a92f2c2178b1437"
+  },
+  {
+   "p": "img/scr/carte.webp",
+   "size": 14628,
+   "sha": "7c4fb15ed945e8cdcc2a8543bd26ce97c2747d785039cad48aa35292c7228814"
+  },
+  {
+   "p": "img/scr/chateau.webp",
+   "size": 13070,
+   "sha": "d2571752c1c7b720ac9d4c79eed99307865c0877b86940e578f5e81a18791582"
+  },
+  {
+   "p": "img/scr/menu.webp",
+   "size": 23768,
+   "sha": "20cb9213840059972ad28637c4e1e4eb7c8354e0684ff189c03eca5e103c05e3"
+  },
+  {
+   "p": "img/scr/porte.webp",
+   "size": 14646,
+   "sha": "45d7e6678855a232379176f906baeb0f9b9e9bb692ec5e733998bfc6844c5bd7"
+  },
+  {
+   "p": "img/scr/sousmarin.webp",
+   "size": 24350,
+   "sha": "06e80e5fc6d27467f733e5c9077265ef5c5e190556ec8f56a68de7e01d58049d"
+  },
+  {
+   "p": "img/ship.webp",
+   "size": 73292,
+   "sha": "c07ab1194bb416dbf3ec592aa335b00bed992c4e00d2bc94429013b9049c1e47"
+  },
+  {
+   "p": "img/ui/b_bad.webp",
+   "size": 1968,
+   "sha": "eb4b4334962e6c32dd6bfd0dd7236a5e697dbcfc968a4b7d7488603793730a6e"
+  },
+  {
+   "p": "img/ui/b_badP.webp",
+   "size": 1742,
+   "sha": "286e03aa538df194973c730c11ae26a92a270d9d83177cae76d43e29010e08a0"
+  },
+  {
+   "p": "img/ui/b_gold.webp",
+   "size": 2294,
+   "sha": "788b99b7d163fb2c663eea3cec0f86a9c4db36e0d2cad7ab9de74bd2cb389b5a"
+  },
+  {
+   "p": "img/ui/b_goldP.webp",
+   "size": 2132,
+   "sha": "538a01dd3d809d6e3f95c0f92c8a838783cdd9096d48d086bfbb4523915d0702"
+  },
+  {
+   "p": "img/ui/b_main.webp",
+   "size": 2068,
+   "sha": "fb208c522b23d86ed8d78c256a87ddaea480f0001a8d43e9ac6415daf1ce7596"
+  },
+  {
+   "p": "img/ui/b_mainP.webp",
+   "size": 1818,
+   "sha": "c92f34f36e930e43efe0f0381d5b7e5ff04976862ca0a2658840a25515e88885"
+  },
+  {
+   "p": "img/ui/b_off.webp",
+   "size": 1642,
+   "sha": "42869a387791d198e24999b0d55c90d9dfe5c8e8dc6b4391ee051d351408f291"
+  },
+  {
+   "p": "img/ui/b_sec.webp",
+   "size": 1552,
+   "sha": "9e24e0387c62bad932e3b9ff157bb5c7e091430bc78db9e1bdd2237551c1ec37"
+  },
+  {
+   "p": "img/ui/b_secP.webp",
+   "size": 1486,
+   "sha": "1e0f5875a8844811f6483fdbd2ae2c45958d9f497cb5f7477830012994e7e3e7"
+  },
+  {
+   "p": "img/ui/b_warn.webp",
+   "size": 2126,
+   "sha": "ecb6c48ead2920fd9cdfac3e31349956fc22d42837110566a66de06ffdab2087"
+  },
+  {
+   "p": "img/ui/b_warnP.webp",
+   "size": 1860,
+   "sha": "caeccfc20fc83415fdc256d2bf8c2cf2b8dfc79bf910e07101110bf8e7617847"
+  },
+  {
+   "p": "img/ui/bar_empty.webp",
+   "size": 1260,
+   "sha": "6986e6de97819e4f89e033c0d301da16ef4ce24d1f8a969762812a5473febb14"
+  },
+  {
+   "p": "img/ui/bar_full.webp",
+   "size": 1512,
+   "sha": "c79b53ced5032fd6de1a87809e2b00656eaea187ff7c8cf999bb1aa2c6d90e50"
+  },
+  {
+   "p": "img/ui/ic_check.webp",
+   "size": 4452,
+   "sha": "1b7d6ee3c00340d3cd8bd0a8d54a47cfa6a6c56c12167ce3af344ecf448132da"
+  },
+  {
+   "p": "img/ui/ic_close.webp",
+   "size": 4466,
+   "sha": "8744026575b0512d8964a142535449e04c43a68431d56e7c467784747ead0c29"
+  },
+  {
+   "p": "img/ui/ic_info.webp",
+   "size": 4006,
+   "sha": "f76ae931535c9332fdd7638c2e8caccff975e0a26a86217424cc2e03e2eea557"
+  },
+  {
+   "p": "img/ui/ic_warn.webp",
+   "size": 4580,
+   "sha": "619b3e0508a1071b51ed1d655f4ae0e27461f14271d296f33b0bc4c61f35e1d3"
+  },
+  {
+   "p": "img/ui/p_glass.webp",
+   "size": 3684,
+   "sha": "9bbb291835b633d4251ebb582999c29b5ddee57fab9c1a124f8fcaccb557c99d"
+  },
+  {
+   "p": "img/ui/p_parch.webp",
+   "size": 4336,
+   "sha": "eae1c23f02e2c2bf278871b9e05a5b593dc1bf42b82ba3130d2aa06ea45eab86"
+  },
+  {
+   "p": "img/ui/p_plank.webp",
+   "size": 1798,
+   "sha": "96fb09db768e403bb88cb20aa157c7406d5f473b05565bad440da25e6bcb1e39"
+  },
+  {
+   "p": "img/ui/p_wood.webp",
+   "size": 4956,
+   "sha": "4ba457b5bfc33b6c433f9d0ed380f10bdf7465e6d408f9e61a7c770dae8479b2"
+  },
+  {
+   "p": "img/ui/tog_off.webp",
+   "size": 1810,
+   "sha": "212d5a73efd104dc0bf2d71cc40c01865dfae981289fb789fed4dfe807a9ee50"
+  },
+  {
+   "p": "img/ui/tog_on.webp",
+   "size": 1940,
+   "sha": "2a4ba909afa7042b97f568fd686fadad8e022b7b24922c4f162a3daf2ce5ffd6"
+  },
+  {
+   "p": "img/ui/wheel0.webp",
+   "size": 3504,
+   "sha": "f5977584f83620a719f501e189eabf191db9e84158a6b967e0af15d770bc118a"
+  },
+  {
+   "p": "img/ui.webp",
+   "size": 504762,
+   "sha": "0e1354eab3d32ef42549e20f72529ff9bb8dba6cdda39fe097587762a05e5666"
+  },
+  {
+   "p": "index.html",
+   "size": 1025,
+   "sha": "35587edde19e0a1b81de76a7fd759abbaacd580ba15cef1da667e2b5d4fe64fc"
+  },
+  {
+   "p": "invite.html",
+   "size": 532,
+   "sha": "5d6d548cf03b2642feaa0aed7a7e8440cc493ad7e4f4cd7c3fbfe3661e9375a8"
+  },
+  {
+   "p": "js/app.js",
+   "size": 43657,
+   "sha": "5ae4484fcbea5ef42f4e00dbe1758f8795960f86b7ee9c4922dde4221f4c775c"
+  },
+  {
+   "p": "js/core/art.js",
+   "size": 7448,
+   "sha": "98d2788ae353c5dfdb9667e250ce78eeb9dbea640b56c2d92e7b2ca8a911621e"
+  },
+  {
+   "p": "js/core/art_rects.js",
+   "size": 4334,
+   "sha": "2a99cda0f4683002971feb8d4310322757cad7fc3af5e59e2af0bc5f2c2e9c42"
+  },
+  {
+   "p": "js/core/atlas.js",
+   "size": 1316,
+   "sha": "5deb015b3e05edf07b4c7f769565edacecc9f88dce43dac77ff18e9e00a54dff"
+  },
+  {
+   "p": "js/core/avatars.js",
+   "size": 5266,
+   "sha": "e0e5f438ca2e57072ee5772b28297de7aa16f5840f305323389795fef22787a5"
+  },
+  {
+   "p": "js/core/boardkit.js",
+   "size": 23896,
+   "sha": "48d653256c88f081e8a218fe103ff5b531396dd8ea50dcd54df4c3a47d41bc66"
+  },
+  {
+   "p": "js/core/boom.js",
+   "size": 5772,
+   "sha": "663f19e6d70fb2f66874e0a424e32b68371988acd828b6b2b667776ee65c9bed"
+  },
+  {
+   "p": "js/core/calib.js",
+   "size": 9085,
+   "sha": "306e02d3359f89068b73575f896afbb52fb6b8682c344e9d415e6770372f122f"
+  },
+  {
+   "p": "js/core/duel_rects.js",
+   "size": 1047,
+   "sha": "3570f91340597564aafee4dbecdf6ee1ecb5611e3d40056b0f1041717653ac3f"
+  },
+  {
+   "p": "js/core/kit.js",
+   "size": 9974,
+   "sha": "b219d564928fa998af95e14442346a36fc90bccadb5fce1197d0ea49b28cb185"
+  },
+  {
+   "p": "js/core/level.js",
+   "size": 805,
+   "sha": "0a6e3ea2495c885cdf06ba1d4361bf8ba476e48dcc6b57d2b57fdd54c55c28e8"
+  },
+  {
+   "p": "js/core/logo.js",
+   "size": 3103,
+   "sha": "604d22eded43116a9b9816bbbe652399621fe87c00c27e85551e5b22fb83bf62"
+  },
+  {
+   "p": "js/core/mer_rects.js",
+   "size": 963,
+   "sha": "51cf37873e4f05a162f59df7453c5ec00040ed8e72307337a9b0580100493afa"
+  },
+  {
+   "p": "js/core/mer_world.js",
+   "size": 3289,
+   "sha": "6f965aa12340c766851f6678f1e6c96fb08dec4e192773372c3df6e411d9d472"
+  },
+  {
+   "p": "js/core/models.js",
+   "size": 3770,
+   "sha": "050fb9df197f8011b261e3359bcf3e8113a357472dc89c256afc1fa57f97c528"
+  },
+  {
+   "p": "js/core/net.js",
+   "size": 7912,
+   "sha": "61dff7fb0588ec90d4ee4bcda8a42e2a634ffe4a295f2a2c8139abf516082363"
+  },
+  {
+   "p": "js/core/profile.js",
+   "size": 3762,
+   "sha": "6ebe0ea7b9e6df9e7dc973ffd033aa65b4a9087212e75587b28e71b3724bf5e9"
+  },
+  {
+   "p": "js/core/remi.js",
+   "size": 22529,
+   "sha": "ee66345b63be9902707259b8bc4151d02cc06fbe83a1034eb9d95b5fc3784f8d"
+  },
+  {
+   "p": "js/core/saves.js",
+   "size": 11523,
+   "sha": "ac3708925ed4c0cbccd8f0ad6ae67f95e5d80997db200cdacac05f41c614fc2e"
+  },
+  {
+   "p": "js/core/sensors.js",
+   "size": 16026,
+   "sha": "3f4f681c812c102650763e6f9954066ee009c1456b78e32c1d2b2f0d2876ba8b"
+  },
+  {
+   "p": "js/core/sensorui.js",
+   "size": 4525,
+   "sha": "0c789ab5a978d018d2c3a5b79be05aa34c3c61de6d445f6452762f5c999bb818"
+  },
+  {
+   "p": "js/core/sprites.js",
+   "size": 2154,
+   "sha": "e6e5090ecc9f8867be6b39f30176161a1f8b310dce542df44acae610726ba163"
+  },
+  {
+   "p": "js/core/strokes.js",
+   "size": 1484,
+   "sha": "b5b24fef3591f9a65da5914888aa6c7a699bef772e3bce0dde25670b0b2afe69"
+  },
+  {
+   "p": "js/core/tts.js",
+   "size": 936,
+   "sha": "3280095dda6dbfb6cd7f17bf41b7c2c36c8d5f619bf197660279036245dcfb2e"
+  },
+  {
+   "p": "js/core/ui.js",
+   "size": 2317,
+   "sha": "6e5b365ffa973eed262970c386266553758ad3beb9c38cb5dccd0de4bb33be76"
+  },
+  {
+   "p": "js/core/ui_rects.js",
+   "size": 3509,
+   "sha": "01d585844fbef7811a23170a5b6018057ee36fe1812bd73ac7449284e5b48167"
+  },
+  {
+   "p": "js/core/uisprites.js",
+   "size": 563,
+   "sha": "c5ef1e7a664a2593eb57c7a10a316d2fedfc100550914d506275a89fbee859ec"
+  },
+  {
+   "p": "js/core/update.js",
+   "size": 2885,
+   "sha": "a222df860fcc5699ad792c0a872ab9aad613fcdd2e547818af6b82fb281f42c4"
+  },
+  {
+   "p": "js/core/util.js",
+   "size": 3162,
+   "sha": "2ac068bb8ccbf55be9db6d05fb37ed758929399d3a563c427f9a678b53d5067e"
+  },
+  {
+   "p": "js/core/walk.js",
+   "size": 1680,
+   "sha": "1eea9c5878a749793a114837f74f6c37de61ed2adee46a993c40c2e2cd6112ba"
+  },
+  {
+   "p": "js/core/winfx.js",
+   "size": 1404,
+   "sha": "9a4aa09e58edce62530e6a47c886d187c941771ecce06f8b85364b31bbe344d2"
+  },
+  {
+   "p": "js/core/zone.js",
+   "size": 11313,
+   "sha": "35f66aff1182dca732362cca9d57a335871d7e2b43d35a7066656f418420041d"
+  },
+  {
+   "p": "js/games/base.js",
+   "size": 4476,
+   "sha": "18879aaa657e44c42547bdeee078cc0c5ca34a24877b08770575563b99d54c29"
+  },
+  {
+   "p": "js/games/bataille.js",
+   "size": 8637,
+   "sha": "f27dd21bea9493f97bd7e672489f743ff6469f856e2ac67213710e70e357fef6"
+  },
+  {
+   "p": "js/games/billes.js",
+   "size": 14568,
+   "sha": "fd9b2bb7be6319ddee20ad78eab8b1cb692081750635d7fddf735d85809dc7b9"
+  },
+  {
+   "p": "js/games/blackjack.js",
+   "size": 16018,
+   "sha": "55aba2dd9034864bffea6af0320b1b1aac42da04f843909e4af1d32a4d314845"
+  },
+  {
+   "p": "js/games/brasdefer.js",
+   "size": 11617,
+   "sha": "bd8cb7806fcb80e5aeab82a91dd7633bd247e1b87829b552ae5b5ad6900d9f5b"
+  },
+  {
+   "p": "js/games/c_base.js",
+   "size": 11689,
+   "sha": "d41a00a19becc9f2304ffbc3d7cb87b0dd9b3283719a96f598a80e7f34020e47"
+  },
+  {
+   "p": "js/games/calcul.js",
+   "size": 9373,
+   "sha": "456143e09f8e6748974d928cf915f058040d81e327d095aa75b9c2d85573c54b"
+  },
+  {
+   "p": "js/games/canon_atlas.js",
+   "size": 1245,
+   "sha": "7a8a727a5bce47ae3fef042b54e264a54a76f37b5faf2b14b51b2f6775fa537e"
+  },
+  {
+   "p": "js/games/cards_icons.js",
+   "size": 9306,
+   "sha": "18a866d9012ccb4d35e10b14a24480bfdb9ab804a857db327869004d2676437d"
+  },
+  {
+   "p": "js/games/cards_kit.js",
+   "size": 19214,
+   "sha": "e7655ae4b8e675f9aa5a2303165e383931e402a4481e9e3f7fa871dd9fb64169"
+  },
+  {
+   "p": "js/games/chirurgien.js",
+   "size": 10543,
+   "sha": "93c46be3ca33fa77f4f471f5efb2c583f436b8fa85099f367ae28b42511628f8"
+  },
+  {
+   "p": "js/games/couleurs.js",
+   "size": 11198,
+   "sha": "96e2ffc8f4da51a21db1f1b51386f39bf07c6c946f451270db8786b1817db9ee"
+  },
+  {
+   "p": "js/games/cris.js",
+   "size": 11228,
+   "sha": "ce67c32ee1fa9fae6112f0e089f65462c9cdfa59629a5d4a2ba8aa623eb68991"
+  },
+  {
+   "p": "js/games/dames.js",
+   "size": 6315,
+   "sha": "b0550cb3baee3fd3fa391e1c2799875eabb789a8c9cea5f22af4d4826c935647"
+  },
+  {
+   "p": "js/games/dames_engine.js",
+   "size": 5072,
+   "sha": "a97497d2f1108b7d54538062a09506818810a55f77c3d916ae18fe316287dd4c"
+  },
+  {
+   "p": "js/games/dessin.js",
+   "size": 5950,
+   "sha": "7d79e8c042a99220d30f614d6e5a42f9285973a3726513a0520ae0cb95d2a54a"
+  },
+  {
+   "p": "js/games/echecs.js",
+   "size": 9708,
+   "sha": "8ff5f8fb03a7d7008084506cae7150bf329af2f5ddaeb7a7499c1a35297923a7"
+  },
+  {
+   "p": "js/games/echecs_engine.js",
+   "size": 11590,
+   "sha": "79af7ac520c2d0065a5ea13fe2461620080f21ecb0ef4a317d3f7f7babe08111"
+  },
+  {
+   "p": "js/games/epee.js",
+   "size": 21252,
+   "sha": "9c3ae85bca52d43070acb9acc427d5824f1a737a0e267c35f97a2b2baebf1199"
+  },
+  {
+   "p": "js/games/familles.js",
+   "size": 11560,
+   "sha": "2cc8d264613c85fc5433ee16382493c455d7e203de6cbff9ee6e2d629330f519"
+  },
+  {
+   "p": "js/games/foret.js",
+   "size": 11445,
+   "sha": "5025adc3967bca275df8f5e5bd7cd9a352af7086370c38a5a6b73ed3e3d4a39e"
+  },
+  {
+   "p": "js/games/hache.js",
+   "size": 21403,
+   "sha": "c299773caceccdcf9777d5e9444ea631c9df9e805305b6590b8128b3f9d7c072"
+  },
+  {
+   "p": "js/games/index.js",
+   "size": 1013,
+   "sha": "8f56065b251d6dde2d98cb36ae8ca3f393e5645f8fc1d47be861896e1858081c"
+  },
+  {
+   "p": "js/games/mastermind.js",
+   "size": 10922,
+   "sha": "3a4baaf3771ab64cfd71ba73bf25312cc732b7d0b269c6903a83d822fa27ac52"
+  },
+  {
+   "p": "js/games/memory.js",
+   "size": 7526,
+   "sha": "5ac9f3232d1d86b2c33b481b6f88d40a24813e30d1ce8f3800cf767d13583cb5"
+  },
+  {
+   "p": "js/games/missiles.js",
+   "size": 27734,
+   "sha": "893d507aa32cc55c0acaef4e6f0ca60c2868ae539808dac0e1d05f3cf6f46c36"
+  },
+  {
+   "p": "js/games/morpion.js",
+   "size": 3434,
+   "sha": "9e0a164b291c81826db6e13be1e3322c38fac19254cedce842649295a7e7bff6"
+  },
+  {
+   "p": "js/games/morpion_engine.js",
+   "size": 3961,
+   "sha": "1da1626c8ef71a4f1b4670e19b57605a71d4e1b647afe52bff8e9cd29fabc9c0"
+  },
+  {
+   "p": "js/games/navale.js",
+   "size": 18293,
+   "sha": "27899f85904ef538bfe11c7b1bfa57d1faf723ab54a27ee07991d79ee76bd855"
+  },
+  {
+   "p": "js/games/navale_engine.js",
+   "size": 4606,
+   "sha": "e9fe0b94e72ba295d6dff533b3b84954df91a265393c5422b29316ff8faf4139"
+  },
+  {
+   "p": "js/games/othello.js",
+   "size": 3812,
+   "sha": "bbe2eb72853b5b872fd14e07323bc9199e39d4ef40aeaa4ba4459627c28701cf"
+  },
+  {
+   "p": "js/games/othello_engine.js",
+   "size": 3535,
+   "sha": "71722ce8a5ce936f16d58fd2f77a6d07b429427d05d9b5b26b2aa639f2ffbb3a"
+  },
+  {
+   "p": "js/games/pack_a.js",
+   "size": 684,
+   "sha": "c52c9735b6e2aafa3504da96ff4fcf7fa810ded933d02bb9d30c8aca8f770c22"
+  },
+  {
+   "p": "js/games/pack_b.js",
+   "size": 2763,
+   "sha": "e3ab6774238b6a53758ea766f63eea2d155fb58e75fefc26fcb6720f5ea02376"
+  },
+  {
+   "p": "js/games/pack_c.js",
+   "size": 1051,
+   "sha": "25e248cde61d3d07804ab2847e7dbc7420a919f2741ef0dca83efa3bbedfb3b4"
+  },
+  {
+   "p": "js/games/pack_d.js",
+   "size": 254,
+   "sha": "6d6aa8436a52f0034ad1402bb20b1b19cf5e47ccdaa6bc355327e58b3a111fd9"
+  },
+  {
+   "p": "js/games/pack_d_kit.js",
+   "size": 10705,
+   "sha": "ce7505c9724df4f45c45faed4fb631c5f0e2c7076584b836c04d0422d88e2d76"
+  },
+  {
+   "p": "js/games/pas.js",
+   "size": 6422,
+   "sha": "0a1b8fea252c63b6b39d05e91474a8334bb935cc6abd063bccde6841a5626dda"
+  },
+  {
+   "p": "js/games/patate.js",
+   "size": 8542,
+   "sha": "f35050071dbb7bc624293ab92c8db93f6d5ca77d5b82c40dbd601c3e4f27e536"
+  },
+  {
+   "p": "js/games/pfc.js",
+   "size": 10690,
+   "sha": "f6c35d7dffbbecf683c186c6010b4ce19b6ea6ed7a87d7f045bf3e0f83042ea4"
+  },
+  {
+   "p": "js/games/pointeurs.js",
+   "size": 12663,
+   "sha": "50451ad751c80b4a67caadbcbe5848d428b04012cf60682a0ec927ed892280df"
+  },
+  {
+   "p": "js/games/puissance4.js",
+   "size": 4431,
+   "sha": "add630a7b9b2a2b3f38ff46cbb4d3dbfe6ad8cb030aa988395e7d28570ade329"
+  },
+  {
+   "p": "js/games/puissance4_engine.js",
+   "size": 3591,
+   "sha": "fca3beed17552a40d557c79a93974a55c50293c34e62f167a1bfd60214c5bcbc"
+  },
+  {
+   "p": "js/games/radar.js",
+   "size": 19773,
+   "sha": "b461e02483e8f5b168b72fce82276cc6b23f405863b9a9f34ae1a2b3656a3fe5"
+  },
+  {
+   "p": "js/games/simon.js",
+   "size": 4170,
+   "sha": "5bb2581886fa2b1afe43b6400a90f784032d47cb5f5b5ab742fa761c20b181c5"
+  },
+  {
+   "p": "js/games/soleil.js",
+   "size": 10417,
+   "sha": "abe64c49905fd238da2466c78617ef3956e1b8be6763cd6630489704ddce1809"
+  },
+  {
+   "p": "js/games/sortie.js",
+   "size": 16946,
+   "sha": "01084870f0cb212afd4e7be7c1a4e8c819b627ac1087c80f56e72d6f166254dd"
+  },
+  {
+   "p": "js/games/sortie_bank.js",
+   "size": 8097,
+   "sha": "87b66a97cc078e740e9d39fb451e76df425edb3f66017c12b26558832d740919"
+  },
+  {
+   "p": "js/games/tour.js",
+   "size": 34233,
+   "sha": "a8f738fcc281cb3beb84499e3c1e6f88f68b5d783a91e9d23991a354a5dc52ac"
+  },
+  {
+   "p": "js/games/tour_engine.js",
+   "size": 24050,
+   "sha": "f2951793db91663edfbceb571c98ff5a65c18c321e9d9be96a01dd5c244b662c"
+  },
+  {
+   "p": "js/games/tresor.js",
+   "size": 24917,
+   "sha": "c1c8babadc4cf4e4660fba225d912f91542bbbe64c96d0c5e5d72e382ef56304"
+  },
+  {
+   "p": "js/games/vaisseau.js",
+   "size": 28903,
+   "sha": "03a16fd562b7f77740f21fe2e54125bca9abce17ff2da4aec94e252a5a010aab"
+  },
+  {
+   "p": "js/invite.js",
+   "size": 6602,
+   "sha": "b797cf824d478f90a98971d9aacb5c5bcfc01481d1e370188989a0635e81ff34"
+  },
+  {
+   "p": "js/selftest.js",
+   "size": 7890,
+   "sha": "d15c222900d13ff671c1f43e6885ee2a6d5bf215ce7145f5157aedd93f426a9c"
+  },
+  {
+   "p": "js/version.js",
+   "size": 159,
+   "sha": "30f9f6afa3a6470dc9eef2e51c75934d81dfe712c3beab2746ab7b6d6a8ccc74"
+  },
+  {
+   "p": "vendor/peerjs.min.js",
+   "size": 86948,
+   "sha": "7604d8c31bec4f134b0d15c2d80b1d095ea18af005354f439f14291fcd7b4168"
+  }
+ ]
+}

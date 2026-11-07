@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#0b1020">
+<title>Duo Jeux</title>
+<script>
+// Filet de sécurité : si une version téléchargée ne démarre pas 2 fois de suite, on revient à celle de l'installation.
+try{var t=localStorage.getItem('duo.upd_try');if(t){var n=(+localStorage.getItem('duo.upd_tries')||0)+1;localStorage.setItem('duo.upd_tries',n);if(n>2&&localStorage.getItem('duo.upd_ok')!==t){localStorage.removeItem('duo.upd_try');caches.delete('duo-meta').then(function(){location.reload()});}}}catch(e){}
+</script>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app" aria-live="polite"></div>
+<noscript>Cette application a besoin de JavaScript.</noscript>
+<script src="vendor/peerjs.min.js" onerror="void 0"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
